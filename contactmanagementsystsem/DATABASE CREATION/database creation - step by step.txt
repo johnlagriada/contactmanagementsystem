@@ -39,7 +39,7 @@ IF YOU WANT TO INSERT MORE DATA:
 -- Insert contacts with specified name, phone, email, and address
 INSERT INTO contacts (name, phone, email, address, birthday, tags, zip_code) 
 VALUES 
-('John Doe', '123-456-7890', 'john.doe@example.com', '123 Elm Street, Some City', '1990-01-15', 'Friend,Work', '12345'),
+('John Wick', '123-456-7890', 'john.doe@example.com', '123 Elm Street, Some City', '1990-01-15', 'Friend,Work', '12345'),
 ('Jane Smith', '987-654-3210', 'jane.smith@example.com', '456 Oak Avenue, Another City', '1985-02-20', 'Family', '67890'),
 ('Bob Johnson', '555-555-5555', 'bob.johnson@example.com', '789 Pine Road, Some Town', '1992-03-25', 'Work', '23456'),
 ('Alice Brown', '234-567-8901', 'alice.brown@example.com', '101 Maple Drive, Sample City', '1988-04-10', 'Friend', '34567'),
