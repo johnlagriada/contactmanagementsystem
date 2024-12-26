@@ -43,7 +43,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
             echo "Session variables are set. User logged in.";
             
             // Redirect to main.php after successful login
-            header("Location: index.php");
+            header("Location: main.php");
             exit(); // Always call exit after header redirection to stop further execution
         } else {
             $error = "Invalid login credentials";  // Generic error message
